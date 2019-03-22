@@ -1,0 +1,30 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sekcjaDzwiekow {
+    display: flex;
+}
+
+.dzwiekPrzycisk {
+-webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  background-color: rgb(107, 10, 99);
+  border: none;
+  color: black;
+  padding: 25px 35px;
+  text-align: center;
+  text-decoration: white;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.dzwiekPrzycisk:hover{
+    background-color: grey; 
+    color: white;
+
+}
+.kanaly {
+    display: flex;
+}

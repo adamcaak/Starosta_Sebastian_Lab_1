@@ -1,0 +1,76 @@
+body {
+  margin: 5px;
+}
+textarea {
+  resize: none;
+  
+}
+.pierwszaNotatka {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  order: 0;
+}
+.pierwszaNotatka .opisNotatki{
+  margin-top: 10px;
+}
+.pierwszaNotatka .tytulNotatki{
+  height: 30px;
+}
+.pierwszaNotatka footer{
+  padding-top: 10px;
+  text-align: right;
+}
+.notatka {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  order: 2;
+}
+.tytulNotatki{
+  text-align: left;
+}
+.opisNotatki{
+  height: 100px;
+ 
+}
+.tytulNotatki, .opisNotatki{
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+}
+.stopkaNotatki button, .stopkaNotatki input{
+  float: right;
+}
+#kontener {
+ 
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(auto-fill, 250px);
+  grid-auto-flow: row;
+  grid-gap: 10px;
+  justify-content: center;
+}
+.kolory{
+  display: inline-block;
+}
+.kolor{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+.czerwony{
+  background: red;
+}
+.czarny{
+  background: black;
+}
+.zolty{
+  background: yellow;
+}
+.niebieski{
+  background: blue;
+}
+.bialy{
+  background: white;
+}

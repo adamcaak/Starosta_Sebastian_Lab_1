@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edytor Zdjec</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <h1>Edytor Zdjec</h1>
+    <div class="edytor">
+        <div class="narzedziaEdycji">
+            <input type="file" id="wczytaj" />
+            <div class="Opcje_Slidera">
+                <button id="rysuj" class="przycisk">Rysuj Canvas</button>
+            </div>
+            <div class="Opcje_Slidera">
+                <label for="jaskrawosc">Jaskrawość</label>
+                <input id="jaskrawosc" class="suwak" name="jaskrawosc" type="range" min="0" max="200" value="100">
+            </div>
+            <div class="Opcje_Slidera">
+                <label for="kontrast">Kontrast</label>
+                <input id="kontrast" class="suwak" name="kontrast" type="range" min="0" max="200" value="100">
+            </div>
+            <div class="Opcje_Slidera">
+                <label for="nasycenie">Nasycenie</label>
+                <input id="nasycenie" class="suwak" name="nasycenie" type="range" min="0" max="200" value="100">
+            </div>
+            <div class="Opcje_Slidera">
+                <label for="sepia">Sepia</label>
+                <input id="sepia" class="suwak" name="sepia" type="range" min="0" max="100" value="0">
+            </div>
+        </div>
+    </div>
+    <img id="obrazek" class="obraz" src="" alt="Wybrany Obraz">
+    <canvas></canvas>
+</body>
+</html>
